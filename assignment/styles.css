@@ -1,55 +1,54 @@
 .singapore {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 300px;
-    width: auto;
-    border-color: black;
-    border-style: solid;
-
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+  width: auto;
+  border-color: black;
+  border-style: solid;
 }
 
 .container {
-    display: grid;
-    grid-template-columns: 1fr 10fr;
+  display: grid;
+  grid-template-columns: 1fr 10fr;
 }
 
-p{
-    margin-left: 10px;
+p {
+  margin-left: 10px;
 }
 
-#profile_pic{
-    max-width: 100%;
-    border-radius: 50%;
-    max-height: 100%;
+#profile_pic {
+  max-width: 100%;
+  border-radius: 50%;
+  max-height: 100%;
 }
 
-h1{
-    font-size: 3em;
-    font-weight: bold;
+h1 {
+  font-size: 3em;
+  font-weight: bold;
 }
 
-.hobbies{
-    display: grid;
-    margin-top: 10px;
-    padding-top: 5px;
+.hobbies {
+  display: grid;
+  margin-top: 10px;
+  padding-top: 5px;
 }
 
-li{
-    padding-top: 5;
+li {
+  padding-top: 5;
 }
 
-svg{
-    width: 50px;
-    height: 100px;
+svg {
+  width: 50px;
+  height: 100px;
 }
 
 .connect {
-   display: grid;
-    grid-template-columns: 1fr ;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
-#github{
-    width: 50px;
-    height: 50px;
+#github {
+  width: 50px;
+  height: 50px;
 }
